@@ -1,4 +1,5 @@
 syntax on
+filetype plugin indent on
 colorscheme evening
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -24,3 +25,7 @@ inoremap <silent> <ESC>OA <Nop>
 inoremap <silent> <ESC>OB <Nop>
 inoremap <silent> <ESC>OC <Nop>
 inoremap <silent> <ESC>OD <Nop>
+
+nnoremap <silent> <c-m>c :cd %:p:h<CR>:make clean<CR>
+nnoremap <silent> <c-m> :cd %:p:h<CR>:make<CR>
+
