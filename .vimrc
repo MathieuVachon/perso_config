@@ -27,5 +27,5 @@ inoremap <silent> <ESC>OC <Nop>
 inoremap <silent> <ESC>OD <Nop>
 
 nnoremap <silent> <c-m>c :cd %:p:h<CR>:make clean<CR>
-nnoremap <silent> <c-m> :cd %:p:h<CR>:make<CR>
+nnoremap <silent> <c-m> :cd %:p:h<CR>:make clean<CR>:make<CR>
 
