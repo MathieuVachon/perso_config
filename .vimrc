@@ -16,6 +16,7 @@ colorscheme koehler
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set number
 inoremap jk <esc>
 imap <c-d> <esc>ddi
 inoremap <esc> <nop>
@@ -25,7 +26,6 @@ inoremap <silent> <C-l> <esc><C-l>
 inoremap <silent> <C-h> <esc><C-h>
 nnoremap <C-t> :tabnew<CR>
 inoremap <C-t> <Esc>:tabnew<CR>
-
 nnoremap <silent> <ESC>OA <Nop>
 nnoremap <silent> <ESC>OB <Nop>
 nnoremap <silent> <ESC>OC <Nop>
@@ -34,7 +34,5 @@ inoremap <silent> <ESC>OA <Nop>
 inoremap <silent> <ESC>OB <Nop>
 inoremap <silent> <ESC>OC <Nop>
 inoremap <silent> <ESC>OD <Nop>
-
 nnoremap <silent> <c-m>c :cd %:p:h<CR>:make clean<CR>
 nnoremap <silent> <c-m> :cd %:p:h<CR>:make clean<CR>:make<CR>
-
